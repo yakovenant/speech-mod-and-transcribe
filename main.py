@@ -49,7 +49,7 @@ def main(mode: int, file_name: str):
     elif mode == 2:
         return print(transcribe(file_name))
     else:
-        pass
+        raise Exception('Wrong run mode')
 
 
 if __name__ == '__main__':
